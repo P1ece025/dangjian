@@ -1,0 +1,33 @@
+{
+  "target": "D:\\青创\\qinghe-local-project\\qinghe-local",
+  "changed": [
+    ".gitignore",
+    "archive-store.mjs",
+    "docs/HANDOFF.md",
+    "examples/20231001_林沐_思想汇报_2026-10-13.txt",
+    "examples/20231001_陈知远_自传.txt",
+    "examples/扫描文本.txt",
+    "examples/未知材料.txt",
+    "package.json",
+    "public/app.js",
+    "public/archive.js",
+    "public/index.html",
+    "public/styles.css",
+    "README.md",
+    "server.mjs",
+    "tests/archive-api.test.mjs",
+    "tests/archive-store.test.mjs",
+    "tests/archive.test.cjs"
+  ],
+  "existing": [
+    ".gitignore",
+    "docs/HANDOFF.md",
+    "package.json",
+    "public/app.js",
+    "public/index.html",
+    "public/styles.css",
+    "README.md",
+    "server.mjs"
+  ],
+  "updatedAt": "2026-10-16T13:30:20.329Z"
+}

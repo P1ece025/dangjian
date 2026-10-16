@@ -1,0 +1,825 @@
+{
+  "version": 1,
+  "rules": {
+    "activeMonths": 12,
+    "probationMonths": 12,
+    "checkSignature": true,
+    "checkTerms": true
+  },
+  "students": [
+    {
+      "id": "DEMO-001",
+      "name": "林沐",
+      "number": "20231001",
+      "college": "计算机学院",
+      "branch": "本科生第1党支部",
+      "stage": 2,
+      "dates": {
+        "application": "2023-09-10",
+        "active": "2025-12-15",
+        "development": "2026-08-20",
+        "admitted": "",
+        "regularized": ""
+      },
+      "flow": 1,
+      "status": "需补正",
+      "checked": true,
+      "docs": [
+        {
+          "id": "application-0",
+          "type": "application",
+          "title": "入党申请书",
+          "date": "2023-09-10",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "入党申请书\n\n姓名：林沐\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "thought-0",
+          "type": "thought",
+          "title": "思想汇报（第1篇）",
+          "date": "2023-10-20",
+          "signed": false,
+          "stamped": true,
+          "source": "sample",
+          "text": "思想汇报\n\n敬爱的党组织：\n\n本阶段，我参加了理论学习与志愿服务。在学习和实践中，我对自身的责任有了更具体的认识。\n\n学习情况：认真完成课程学习，主动参与学习交流。\n实践情况：参与校园志愿活动，协助同学解决实际问题。\n不足与改进：今后将进一步提升学习计划的执行力。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "thought-1",
+          "type": "thought",
+          "title": "思想汇报（第2篇）",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "思想汇报\n\n敬爱的党组织：\n\n本阶段，我参加了理论学习与志愿服务。在学习和实践中，我对自身的责任有了更具体的认识。\n\n学习情况：认真完成课程学习，主动参与学习交流。\n实践情况：参与校园志愿活动，协助同学解决实际问题。\n不足与改进：今后将进一步提升学习计划的执行力。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "cultivation-0",
+          "type": "cultivation",
+          "title": "培养教育考察写实簿",
+          "date": "2025-12-15",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "培养教育考察写实簿\n\n姓名：林沐\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "autobiography-0",
+          "type": "autobiography",
+          "title": "自传",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "自传\n\n姓名：林沐\n学习经历：2023年9月至今，就读于示范大学。\n个人经历：参与班级服务和校园实践活动。\n自我总结：结合学习与实践，持续反思并改进自身不足。\n\n（本页为虚拟材料，不构成真实证明文件）\n组织名称：中国共产档。"
+        }
+      ],
+      "overrides": {},
+      "feedback": "",
+      "revision": 1
+    },
+    {
+      "id": "DEMO-002",
+      "name": "陈知远",
+      "number": "20231002",
+      "college": "信息管理学院",
+      "branch": "本科生第2党支部",
+      "stage": 3,
+      "dates": {
+        "application": "2023-09-10",
+        "active": "2023-10-20",
+        "development": "2024-11-22",
+        "admitted": "2024-12-12",
+        "regularized": ""
+      },
+      "flow": 2,
+      "status": "待复核",
+      "checked": true,
+      "docs": [
+        {
+          "id": "application-0",
+          "type": "application",
+          "title": "入党申请书",
+          "date": "2023-09-10",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "入党申请书\n\n姓名：陈知远\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "thought-0",
+          "type": "thought",
+          "title": "思想汇报（第1篇）",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "思想汇报\n\n敬爱的党组织：\n\n本阶段，我参加了理论学习与志愿服务。在学习和实践中，我对自身的责任有了更具体的认识。\n\n学习情况：认真完成课程学习，主动参与学习交流。\n实践情况：参与校园志愿活动，协助同学解决实际问题。\n不足与改进：今后将进一步提升学习计划的执行力。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "thought-1",
+          "type": "thought",
+          "title": "思想汇报（第2篇）",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "思想汇报\n\n敬爱的党组织：\n\n本阶段，我参加了理论学习与志愿服务。在学习和实践中，我对自身的责任有了更具体的认识。\n\n学习情况：认真完成课程学习，主动参与学习交流。\n实践情况：参与校园志愿活动，协助同学解决实际问题。\n不足与改进：今后将进一步提升学习计划的执行力。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "cultivation-0",
+          "type": "cultivation",
+          "title": "培养教育考察写实簿",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "培养教育考察写实簿\n\n姓名：陈知远\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "volunteer-0",
+          "type": "volunteer",
+          "title": "入党志愿书",
+          "date": "2024-12-12",
+          "signed": true,
+          "stamped": false,
+          "source": "sample",
+          "text": "入党志愿书\n\n姓名：陈知远\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        }
+      ],
+      "overrides": {},
+      "feedback": "",
+      "revision": 1
+    },
+    {
+      "id": "DEMO-003",
+      "name": "许嘉宁",
+      "number": "20231003",
+      "college": "文学院",
+      "branch": "本科生第3党支部",
+      "stage": 1,
+      "dates": {
+        "application": "2023-09-10",
+        "active": "2023-10-20",
+        "development": "",
+        "admitted": "",
+        "regularized": ""
+      },
+      "flow": 3,
+      "status": "待复核",
+      "checked": true,
+      "docs": [
+        {
+          "id": "application-0",
+          "type": "application",
+          "title": "入党申请书",
+          "date": "2023-09-10",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "入党申请书\n\n姓名：许嘉宁\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "thought-0",
+          "type": "thought",
+          "title": "思想汇报（第1篇）",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "思想汇报\n\n敬爱的党组织：\n\n本阶段，我参加了理论学习与志愿服务。在学习和实践中，我对自身的责任有了更具体的认识。\n\n学习情况：认真完成课程学习，主动参与学习交流。\n实践情况：参与校园志愿活动，协助同学解决实际问题。\n不足与改进：今后将进一步提升学习计划的执行力。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "cultivation-0",
+          "type": "cultivation",
+          "title": "培养教育考察写实簿",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "培养教育考察写实簿\n\n姓名：许嘉宁\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        }
+      ],
+      "overrides": {},
+      "feedback": "",
+      "revision": 1
+    },
+    {
+      "id": "DEMO-004",
+      "name": "周予安",
+      "number": "20231004",
+      "college": "计算机学院",
+      "branch": "本科生第1党支部",
+      "stage": 4,
+      "dates": {
+        "application": "2023-09-10",
+        "active": "2023-10-20",
+        "development": "2024-11-22",
+        "admitted": "2024-12-12",
+        "regularized": "2025-10-12"
+      },
+      "flow": 4,
+      "status": "需补正",
+      "checked": true,
+      "docs": [
+        {
+          "id": "application-0",
+          "type": "application",
+          "title": "入党申请书",
+          "date": "2023-09-10",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "入党申请书\n\n姓名：周予安\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "thought-0",
+          "type": "thought",
+          "title": "思想汇报（第1篇）",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "思想汇报\n\n敬爱的党组织：\n\n本阶段，我参加了理论学习与志愿服务。在学习和实践中，我对自身的责任有了更具体的认识。\n\n学习情况：认真完成课程学习，主动参与学习交流。\n实践情况：参与校园志愿活动，协助同学解决实际问题。\n不足与改进：今后将进一步提升学习计划的执行力。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "thought-1",
+          "type": "thought",
+          "title": "思想汇报（第2篇）",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "思想汇报\n\n敬爱的党组织：\n\n本阶段，我参加了理论学习与志愿服务。在学习和实践中，我对自身的责任有了更具体的认识。\n\n学习情况：认真完成课程学习，主动参与学习交流。\n实践情况：参与校园志愿活动，协助同学解决实际问题。\n不足与改进：今后将进一步提升学习计划的执行力。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "cultivation-0",
+          "type": "cultivation",
+          "title": "培养教育考察写实簿",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "培养教育考察写实簿\n\n姓名：周予安\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "autobiography-0",
+          "type": "autobiography",
+          "title": "自传",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "自传\n\n姓名：周予安\n学习经历：2023年9月至今，就读于示范大学。\n个人经历：参与班级服务和校园实践活动。\n自我总结：结合学习与实践，持续反思并改进自身不足。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "volunteer-0",
+          "type": "volunteer",
+          "title": "入党志愿书",
+          "date": "2024-12-12",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "入党志愿书\n\n姓名：周予安\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "regularization-0",
+          "type": "regularization",
+          "title": "转正申请书",
+          "date": "2025-10-12",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "转正申请书\n\n姓名：周予安\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        }
+      ],
+      "overrides": {},
+      "feedback": "",
+      "revision": 1
+    },
+    {
+      "id": "DEMO-005",
+      "name": "沈一禾",
+      "number": "20231005",
+      "college": "信息管理学院",
+      "branch": "本科生第2党支部",
+      "stage": 2,
+      "dates": {
+        "application": "2023-09-10",
+        "active": "2023-10-20",
+        "development": "2024-11-22",
+        "admitted": "",
+        "regularized": ""
+      },
+      "flow": 1,
+      "status": "待复核",
+      "checked": true,
+      "docs": [
+        {
+          "id": "application-0",
+          "type": "application",
+          "title": "入党申请书",
+          "date": "2023-09-10",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "入党申请书\n\n姓名：沈一禾\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "thought-0",
+          "type": "thought",
+          "title": "思想汇报（第1篇）",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "思想汇报\n\n敬爱的党组织：\n\n本阶段，我参加了理论学习与志愿服务。在学习和实践中，我对自身的责任有了更具体的认识。\n\n学习情况：认真完成课程学习，主动参与学习交流。\n实践情况：参与校园志愿活动，协助同学解决实际问题。\n不足与改进：今后将进一步提升学习计划的执行力。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "thought-1",
+          "type": "thought",
+          "title": "思想汇报（第2篇）",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "思想汇报\n\n敬爱的党组织：\n\n本阶段，我参加了理论学习与志愿服务。在学习和实践中，我对自身的责任有了更具体的认识。\n\n学习情况：认真完成课程学习，主动参与学习交流。\n实践情况：参与校园志愿活动，协助同学解决实际问题。\n不足与改进：今后将进一步提升学习计划的执行力。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "cultivation-0",
+          "type": "cultivation",
+          "title": "培养教育考察写实簿",
+          "date": "2023-10-20",
+          "signed": false,
+          "stamped": true,
+          "source": "sample",
+          "text": "培养教育考察写实簿\n\n姓名：沈一禾\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "autobiography-0",
+          "type": "autobiography",
+          "title": "自传",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "自传\n\n姓名：沈一禾\n学习经历：2023年9月至今，就读于示范大学。\n个人经历：参与班级服务和校园实践活动。\n自我总结：结合学习与实践，持续反思并改进自身不足。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        }
+      ],
+      "overrides": {},
+      "feedback": "",
+      "revision": 1
+    },
+    {
+      "id": "DEMO-006",
+      "name": "宋可欣",
+      "number": "20231006",
+      "college": "文学院",
+      "branch": "本科生第3党支部",
+      "stage": 0,
+      "dates": {
+        "application": "2023-09-10",
+        "active": "",
+        "development": "",
+        "admitted": "",
+        "regularized": ""
+      },
+      "flow": 2,
+      "status": "待复核",
+      "checked": true,
+      "docs": [
+        {
+          "id": "application-0",
+          "type": "application",
+          "title": "入党申请书",
+          "date": "2023-09-10",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "入党申请书\n\n姓名：宋可欣\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        }
+      ],
+      "overrides": {},
+      "feedback": "",
+      "revision": 1
+    },
+    {
+      "id": "DEMO-007",
+      "name": "陆景行",
+      "number": "20231007",
+      "college": "计算机学院",
+      "branch": "本科生第1党支部",
+      "stage": 1,
+      "dates": {
+        "application": "2023-09-10",
+        "active": "2023-10-20",
+        "development": "",
+        "admitted": "",
+        "regularized": ""
+      },
+      "flow": 3,
+      "status": "需补正",
+      "checked": true,
+      "docs": [
+        {
+          "id": "application-0",
+          "type": "application",
+          "title": "入党申请书",
+          "date": "2023-09-10",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "入党申请书\n\n姓名：陆景行\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "thought-0",
+          "type": "thought",
+          "title": "思想汇报（第1篇）",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "思想汇报\n\n敬爱的党组织：\n\n本阶段，我参加了理论学习与志愿服务。在学习和实践中，我对自身的责任有了更具体的认识。\n\n学习情况：认真完成课程学习，主动参与学习交流。\n实践情况：参与校园志愿活动，协助同学解决实际问题。\n不足与改进：今后将进一步提升学习计划的执行力。\n\n（本页为虚拟材料，不构成真实证明文件）\n实践情况补充：请填写。"
+        },
+        {
+          "id": "thought-1",
+          "type": "thought",
+          "title": "思想汇报（第2篇）",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "思想汇报\n\n敬爱的党组织：\n\n本阶段，我参加了理论学习与志愿服务。在学习和实践中，我对自身的责任有了更具体的认识。\n\n学习情况：认真完成课程学习，主动参与学习交流。\n实践情况：参与校园志愿活动，协助同学解决实际问题。\n不足与改进：今后将进一步提升学习计划的执行力。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "cultivation-0",
+          "type": "cultivation",
+          "title": "培养教育考察写实簿",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "培养教育考察写实簿\n\n姓名：陆景行\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        }
+      ],
+      "overrides": {},
+      "feedback": "",
+      "revision": 1
+    },
+    {
+      "id": "DEMO-008",
+      "name": "顾思齐",
+      "number": "20231008",
+      "college": "信息管理学院",
+      "branch": "本科生第2党支部",
+      "stage": 3,
+      "dates": {
+        "application": "2023-09-10",
+        "active": "2023-10-20",
+        "development": "2023-09-01",
+        "admitted": "2024-12-12",
+        "regularized": ""
+      },
+      "flow": 4,
+      "status": "待复核",
+      "checked": true,
+      "docs": [
+        {
+          "id": "application-0",
+          "type": "application",
+          "title": "入党申请书",
+          "date": "2023-09-10",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "入党申请书\n\n姓名：顾思齐\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "thought-0",
+          "type": "thought",
+          "title": "思想汇报（第1篇）",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "思想汇报\n\n敬爱的党组织：\n\n本阶段，我参加了理论学习与志愿服务。在学习和实践中，我对自身的责任有了更具体的认识。\n\n学习情况：认真完成课程学习，主动参与学习交流。\n实践情况：参与校园志愿活动，协助同学解决实际问题。\n不足与改进：今后将进一步提升学习计划的执行力。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "thought-1",
+          "type": "thought",
+          "title": "思想汇报（第2篇）",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "思想汇报\n\n敬爱的党组织：\n\n本阶段，我参加了理论学习与志愿服务。在学习和实践中，我对自身的责任有了更具体的认识。\n\n学习情况：认真完成课程学习，主动参与学习交流。\n实践情况：参与校园志愿活动，协助同学解决实际问题。\n不足与改进：今后将进一步提升学习计划的执行力。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "cultivation-0",
+          "type": "cultivation",
+          "title": "培养教育考察写实簿",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "培养教育考察写实簿\n\n姓名：顾思齐\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "autobiography-0",
+          "type": "autobiography",
+          "title": "自传",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "自传\n\n姓名：顾思齐\n学习经历：2023年9月至今，就读于示范大学。\n个人经历：参与班级服务和校园实践活动。\n自我总结：结合学习与实践，持续反思并改进自身不足。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "volunteer-0",
+          "type": "volunteer",
+          "title": "入党志愿书",
+          "date": "2024-12-12",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "入党志愿书\n\n姓名：顾思齐\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        }
+      ],
+      "overrides": {},
+      "feedback": "",
+      "revision": 1
+    },
+    {
+      "id": "DEMO-009",
+      "name": "苏星澜",
+      "number": "20231009",
+      "college": "文学院",
+      "branch": "本科生第3党支部",
+      "stage": 4,
+      "dates": {
+        "application": "2023-09-10",
+        "active": "2023-10-20",
+        "development": "2024-11-22",
+        "admitted": "2024-12-12",
+        "regularized": "2025-12-15"
+      },
+      "flow": 4,
+      "status": "材料已确认",
+      "checked": true,
+      "docs": [
+        {
+          "id": "application-0",
+          "type": "application",
+          "title": "入党申请书",
+          "date": "2023-09-10",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "入党申请书\n\n姓名：苏星澜\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "thought-0",
+          "type": "thought",
+          "title": "思想汇报（第1篇）",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "思想汇报\n\n敬爱的党组织：\n\n本阶段，我参加了理论学习与志愿服务。在学习和实践中，我对自身的责任有了更具体的认识。\n\n学习情况：认真完成课程学习，主动参与学习交流。\n实践情况：参与校园志愿活动，协助同学解决实际问题。\n不足与改进：今后将进一步提升学习计划的执行力。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "thought-1",
+          "type": "thought",
+          "title": "思想汇报（第2篇）",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "思想汇报\n\n敬爱的党组织：\n\n本阶段，我参加了理论学习与志愿服务。在学习和实践中，我对自身的责任有了更具体的认识。\n\n学习情况：认真完成课程学习，主动参与学习交流。\n实践情况：参与校园志愿活动，协助同学解决实际问题。\n不足与改进：今后将进一步提升学习计划的执行力。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "cultivation-0",
+          "type": "cultivation",
+          "title": "培养教育考察写实簿",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "培养教育考察写实簿\n\n姓名：苏星澜\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "autobiography-0",
+          "type": "autobiography",
+          "title": "自传",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "自传\n\n姓名：苏星澜\n学习经历：2023年9月至今，就读于示范大学。\n个人经历：参与班级服务和校园实践活动。\n自我总结：结合学习与实践，持续反思并改进自身不足。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "volunteer-0",
+          "type": "volunteer",
+          "title": "入党志愿书",
+          "date": "2024-12-12",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "入党志愿书\n\n姓名：苏星澜\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "regularization-0",
+          "type": "regularization",
+          "title": "转正申请书",
+          "date": "2025-12-15",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "转正申请书\n\n姓名：苏星澜\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        }
+      ],
+      "overrides": {},
+      "feedback": "",
+      "revision": 1
+    },
+    {
+      "id": "DEMO-010",
+      "name": "江书言",
+      "number": "20231010",
+      "college": "计算机学院",
+      "branch": "本科生第1党支部",
+      "stage": 2,
+      "dates": {
+        "application": "2023-09-10",
+        "active": "2023-10-20",
+        "development": "2024-11-22",
+        "admitted": "",
+        "regularized": ""
+      },
+      "flow": 2,
+      "status": "待审核",
+      "checked": false,
+      "docs": [
+        {
+          "id": "application-0",
+          "type": "application",
+          "title": "入党申请书",
+          "date": "2023-09-10",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "入党申请书\n\n姓名：江书言\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "thought-0",
+          "type": "thought",
+          "title": "思想汇报（第1篇）",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "思想汇报\n\n敬爱的党组织：\n\n本阶段，我参加了理论学习与志愿服务。在学习和实践中，我对自身的责任有了更具体的认识。\n\n学习情况：认真完成课程学习，主动参与学习交流。\n实践情况：参与校园志愿活动，协助同学解决实际问题。\n不足与改进：今后将进一步提升学习计划的执行力。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "thought-1",
+          "type": "thought",
+          "title": "思想汇报（第2篇）",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "思想汇报\n\n敬爱的党组织：\n\n本阶段，我参加了理论学习与志愿服务。在学习和实践中，我对自身的责任有了更具体的认识。\n\n学习情况：认真完成课程学习，主动参与学习交流。\n实践情况：参与校园志愿活动，协助同学解决实际问题。\n不足与改进：今后将进一步提升学习计划的执行力。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "cultivation-0",
+          "type": "cultivation",
+          "title": "培养教育考察写实簿",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "培养教育考察写实簿\n\n姓名：江书言\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "autobiography-0",
+          "type": "autobiography",
+          "title": "自传",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "自传\n\n姓名：江书言\n学习经历：2023年9月至今，就读于示范大学。\n个人经历：参与班级服务和校园实践活动。\n自我总结：结合学习与实践，持续反思并改进自身不足。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        }
+      ],
+      "overrides": {},
+      "feedback": "",
+      "revision": 1
+    },
+    {
+      "id": "DEMO-011",
+      "name": "唐亦可",
+      "number": "20231011",
+      "college": "信息管理学院",
+      "branch": "本科生第2党支部",
+      "stage": 0,
+      "dates": {
+        "application": "2023-09-10",
+        "active": "",
+        "development": "",
+        "admitted": "",
+        "regularized": ""
+      },
+      "flow": 3,
+      "status": "待审核",
+      "checked": false,
+      "docs": [
+        {
+          "id": "application-0",
+          "type": "application",
+          "title": "入党申请书",
+          "date": "2023-09-10",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "入党申请书\n\n姓名：唐亦可\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        }
+      ],
+      "overrides": {},
+      "feedback": "",
+      "revision": 1
+    },
+    {
+      "id": "DEMO-012",
+      "name": "程新语",
+      "number": "20231012",
+      "college": "文学院",
+      "branch": "本科生第3党支部",
+      "stage": 1,
+      "dates": {
+        "application": "2023-09-10",
+        "active": "2023-10-20",
+        "development": "",
+        "admitted": "",
+        "regularized": ""
+      },
+      "flow": 4,
+      "status": "待审核",
+      "checked": false,
+      "docs": [
+        {
+          "id": "application-0",
+          "type": "application",
+          "title": "入党申请书",
+          "date": "2023-09-10",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "入党申请书\n\n姓名：程新语\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "thought-0",
+          "type": "thought",
+          "title": "思想汇报（第1篇）",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "思想汇报\n\n敬爱的党组织：\n\n本阶段，我参加了理论学习与志愿服务。在学习和实践中，我对自身的责任有了更具体的认识。\n\n学习情况：认真完成课程学习，主动参与学习交流。\n实践情况：参与校园志愿活动，协助同学解决实际问题。\n不足与改进：今后将进一步提升学习计划的执行力。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "thought-1",
+          "type": "thought",
+          "title": "思想汇报（第2篇）",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "思想汇报\n\n敬爱的党组织：\n\n本阶段，我参加了理论学习与志愿服务。在学习和实践中，我对自身的责任有了更具体的认识。\n\n学习情况：认真完成课程学习，主动参与学习交流。\n实践情况：参与校园志愿活动，协助同学解决实际问题。\n不足与改进：今后将进一步提升学习计划的执行力。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        },
+        {
+          "id": "cultivation-0",
+          "type": "cultivation",
+          "title": "培养教育考察写实簿",
+          "date": "2023-10-20",
+          "signed": true,
+          "stamped": true,
+          "source": "sample",
+          "text": "培养教育考察写实簿\n\n姓名：程新语\n材料内容：此处为用于演示审核流程的虚拟材料摘要。\n有关经历、记录和日期均为虚构，用于展示材料完整性与流程校验。\n规范用语示例：中国共产党。\n\n（本页为虚拟材料，不构成真实证明文件）"
+        }
+      ],
+      "overrides": {},
+      "feedback": "",
+      "revision": 1
+    }
+  ],
+  "logs": [
+    {
+      "at": "2026-10-13 09:20",
+      "who": "演示审核员",
+      "action": "载入虚拟材料批次",
+      "detail": "12名虚拟学生 · 2026年秋季批次"
+    }
+  ]
+}

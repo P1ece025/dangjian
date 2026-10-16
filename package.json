@@ -1,0 +1,15 @@
+{
+  "name": "qinghe-material-review-demo",
+  "version": "0.2.0",
+  "private": true,
+  "description": "青禾 · 发展党员材料审核工作台，本地交互原型",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs",
+    "check": "node --check public/app.js && node --check public/model.js && node --check public/archive.js && node --check server.mjs && node --check archive-store.mjs",
+    "test": "node --test tests/model.test.cjs tests/archive.test.cjs tests/archive-store.test.mjs tests/archive-api.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
